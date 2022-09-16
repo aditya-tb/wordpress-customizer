@@ -95,3 +95,27 @@
  ));
 
  ```
+ 
+ ## You can add your section and controls under a panel
+  ```php
+ require_once( dirname(__DIR__) . '/classes/class-ad-wp-customizer.php' );
+
+ $test_panel = new TB_Customizer('panel_id', array(
+ 	'title'	=> __('Panel Title'),
+	'priority	=> 20
+ ));
+ 
+ $test_panel->add_section(array(
+	'id'	=> 'test_section',
+	'title'	=> __('Test Section', 'adara'),
+	'controls'	=> array(
+		array(
+			'id'	=> 'test_control',
+			'title'	=> __('Test Control', 'adara'),
+			'type'	=> 'text',
+		)
+	)
+ ));
+
+ ```
+ 
