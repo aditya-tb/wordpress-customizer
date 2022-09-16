@@ -1,6 +1,6 @@
 # How To Use
- ```
- require_once( dirname(__DIR__) . '/classes/class-tb-customizer.php' );
+ ```php
+ require_once( dirname(__DIR__) . '/classes/class-ad-wp-customizer.php' );
 
  $test_panel = new TB_Customizer();
  
