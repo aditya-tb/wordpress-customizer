@@ -1,5 +1,5 @@
 # How To Use
-
+ ```
  require_once( dirname(__DIR__) . '/classes/class-tb-customizer.php' );
 
  $test_panel = new TB_Customizer();
@@ -93,3 +93,5 @@
 
 	)
  ));
+
+ ```
