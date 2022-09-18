@@ -3,7 +3,7 @@
  * Customizer Class
  */
 
- class TB_Customizer {
+ class AD_Customizer {
 
     private $id;
     private $args;
